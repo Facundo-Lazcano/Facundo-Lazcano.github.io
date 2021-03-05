@@ -1,0 +1,24 @@
+.botones {
+    position: sticky;
+    z-index: 99;
+    overflow: hidden;
+    top: 50vh;
+    height: 8rem;
+    width: 1rem;
+    background-color: #272727;
+    transition: ease-in-out 0.5s all;
+    font-size: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.botones:hover {
+    position: sticky;
+    z-index: 99;
+    top: 50vh;
+    display: flex;
+    width: 10rem;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+}

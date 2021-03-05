@@ -1,0 +1,83 @@
+.contacto {
+    background-color: hsl(0, 0%, 0%);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.redes {
+    color: #ffffff;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    column-gap: 1rem;
+    justify-content: center;
+}
+
+
+
+.marco-foto {
+    height: 50vh;
+    width: 40vh;
+    border: 3px solid #272727;
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-right: 4rem;
+}
+
+.marco-foto img {
+    height: 50vh;
+    filter: grayscale(90%);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    transition: all .5s ease-in-out;
+
+}
+
+.marco-foto img:hover {
+    filter: grayscale(1%);
+}
+
+.red {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 1rem;
+    color: #ffffff;
+}
+
+.red:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.icono-red {
+    border-radius: 50px;
+    border: 3px solid #ffffff;
+    padding: 5px;
+    margin-right: 1rem;
+}
+
+
+
+
+.footer {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
