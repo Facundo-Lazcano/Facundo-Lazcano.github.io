@@ -5,7 +5,7 @@ const AppMovil = ({ video, titulo, descripcion, lenguajes }) => {
     <div>
       <div className='video-pagina'>
         <div className='proyecto'>
-          <video src={video} className='celular' controls />
+          <video src={video} className='celular' controls autoPlay />
           <div className='descripcion-proyecto'>
             <h4>{titulo}</h4>
             <div className='descripcion'>{descripcion}</div>

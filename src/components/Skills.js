@@ -23,7 +23,7 @@ const Skills = () => {
           <div className='stack'>FrontEnd</div>
           <div className='lenguaje'>
             <div style={{ textAlign: 'center', marginTop: 10 }}>
-              <img src={html5} alt='HTML5-Logo' style={{ height: 65 }} />
+              <img src={html5} alt='HTML5-Logo' />
             </div>
             <div style={{ textAlign: 'center', marginTop: 10 }}>
               <img
@@ -36,20 +36,16 @@ const Skills = () => {
               />
             </div>
             <div style={{ textAlign: 'center', marginTop: 10 }}>
-              <img
-                src={javascript}
-                alt='javascript-Logo'
-                style={{ height: 65 }}
-              />
+              <img src={javascript} alt='javascript-Logo' />
             </div>
             <div style={{ textAlign: 'center', marginTop: 10 }}>
-              <img src={react} alt='react-Logo' style={{ height: 65 }} />
+              <img src={react} alt='react-Logo' />
             </div>
             <div style={{ textAlign: 'center', marginTop: 10 }}>
-              <img src={reactnative} alt='rn-Logo' style={{ height: 65 }} />
+              <img src={reactnative} alt='rn-Logo' />
             </div>
             <div style={{ textAlign: 'center', marginTop: 10 }}>
-              <img src={flutter} alt='flutter-Logo' style={{ height: 65 }} />
+              <img src={flutter} alt='flutter-Logo' />
             </div>
           </div>
         </div>
@@ -57,16 +53,16 @@ const Skills = () => {
           <div className='stack'>DataBases</div>
           <div className='lenguaje'>
             <div style={{ textAlign: 'center', marginTop: 10 }}>
-              <img src={mysql} alt='mysql-Logo' style={{ height: 65 }} />
+              <img src={mysql} alt='mysql-Logo' />
             </div>
             <div style={{ textAlign: 'center', marginTop: 10 }}>
-              <img src={sql} alt='sql-Logo' style={{ height: 65 }} />
+              <img src={sql} alt='sql-Logo' />
             </div>
             <div style={{ textAlign: 'center', marginTop: 10 }}>
-              <img src={mongodb} alt='mongodb-Logo' style={{ height: 65 }} />
+              <img src={mongodb} alt='mongodb-Logo' />
             </div>
             <div style={{ textAlign: 'center', marginTop: 10 }}>
-              <img src={firebase} alt='firebase-Logo' style={{ height: 65 }} />
+              <img src={firebase} alt='firebase-Logo' />
             </div>
           </div>
         </div>
@@ -74,16 +70,16 @@ const Skills = () => {
           <div className='stack'>BackEnd</div>
           <div className='lenguaje'>
             <div style={{ textAlign: 'center', marginTop: 10 }}>
-              <img src={nodejs} alt='nodejs-Logo' style={{ height: 65 }} />
+              <img src={nodejs} alt='nodejs-Logo' />
             </div>
             <div style={{ textAlign: 'center', marginTop: 10 }}>
-              <img src={php} alt='php-Logo' style={{ height: 65 }} />
+              <img src={php} alt='php-Logo' />
             </div>
             <div style={{ textAlign: 'center', marginTop: 10 }}>
-              <img src={java} alt='java-Logo' style={{ height: 65 }} />
+              <img src={java} alt='java-Logo' />
             </div>
             <div style={{ textAlign: 'center', marginTop: 10 }}>
-              <img src={heroku} alt='heroku-Logo' style={{ height: 65 }} />
+              <img src={heroku} alt='heroku-Logo' />
             </div>
           </div>
         </div>

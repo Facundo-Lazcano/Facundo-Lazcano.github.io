@@ -1,5 +1,6 @@
 .skils {
     background-color: #000000;
+    height: 100vh;
 }
 
 .skils-tabla {
@@ -15,7 +16,14 @@
     font-weight: bold;
 }
 
+@media (min-width: 768px) {
+    .lenguaje img {
+        height: 65px;
+    }
+}
+
 .lenguaje img {
+    height: 40px;
     filter: grayscale(100%);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
